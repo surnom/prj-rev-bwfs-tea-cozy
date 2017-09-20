@@ -1,0 +1,185 @@
+body {
+  background-color: black;
+  opacity: 0.9px;
+}
+
+/* header */
+
+
+header {
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  z-index: 1;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: middle;
+}
+
+header .logo {
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+  opacity: .9;
+}
+
+nav {
+  text-align: right;
+  padding-left: 650px;
+  padding-right: 10px;
+}
+
+.links {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+/* Mission */
+
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  border-top: 70px solid black;
+  align-items: center;
+}
+
+.mission-container {
+  display: block;
+  background-color: black;
+  width: 100%;
+  height: 100px;
+}
+
+h2 {
+  display: block;
+  font-family: Helvetica;
+  color: seashell;
+  text-align: center;
+  opacity: 0.9;
+}
+
+h3 {
+  display: block;
+  font-family: helvetica;
+  color: seashell;
+  text-align: center;
+  opacity: 1;
+}
+
+h4 {
+  display: block;
+  font-family: Helvetica;
+  color: seashell;
+  text-align: center;
+  opacity: 0.9;
+}
+
+/* tea of the month */
+
+.one {
+  width: 300px;
+  height: 200px;
+  padding-right: 20px;
+}
+
+.two {
+  width: 300px;
+  height: 200px;
+  padding-right: 20px;
+}
+
+.three {
+  width: 300px;
+  height: 200px;
+}
+
+.four {
+  width: 300px;
+  height: 200px;
+  padding-right: 20px;
+}
+
+.five {
+  width: 300px;
+  height: 200px;
+  padding-right: 20px;
+}
+
+
+/* location */
+
+#locationbackground {
+  height: 500px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  padding-top: 100px;
+}
+
+p {
+  display: block;
+  font-family: helvetica;
+  color: seashell;
+  text-align: center;
+}
+
+.flex-container #locationone {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin-right: 40px;
+}
+
+
+.flex-container #locationtwo {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin-right: 40px;
+}
+
+.flex-container #locationthree {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+}
+
+/* contact */
+
+#contact {
+  display: block;
+  height: 200px;
+  padding-top: 150px;
+  text-align: center;
+}
+
+
+h5 {
+  display: block;
+  font-family: helvetica;
+  color: seashell;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0.9;
+}
+
+#copyright h5 {
+  text-align: left;
+  margin-left: 20px;
+}
